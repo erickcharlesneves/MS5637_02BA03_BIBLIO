@@ -1,12 +1,12 @@
 /*  Para testar diferentes exemplos:
 Pode proceder de duas formas
 
-Primeira:
+Primeira, recomendada:
 Descomente a linha correspondentes ao exemplo que deseja testar no arquivo CMakeLists.txt em:
 add_executable(MS5637_02BA03_BIBLIO
     src/ms5637_02ba03/ms5637.c
     # src/main.c
-    src/main_exemplos/Ex1_leitura.c (neste exemplo em si descomentei a linha correspondente)
+    src/main_exemplos/Ex1_leitura.c <--(veja que neste exemplo em si descomentei a linha correspondente)
     # src/main_exemplos/Ex2_barometro.c
     # src/main_exemplos/Ex3_varBarometrica.c
     # src/main_exemplos/Ex4_ajustepressao.c
@@ -33,7 +33,7 @@ int main() {
     stdio_init_all();
     ms5637_init();
 
-    //Teste básico inicial - Leitura contínua de temperatura e pressão atmosférica em mbar
+    //Implementação básica inicial - Leitura contínua de temperatura e pressão atmosférica em mbar, na saída do monitor serial.
 
     while (true) {
         float temp, press;

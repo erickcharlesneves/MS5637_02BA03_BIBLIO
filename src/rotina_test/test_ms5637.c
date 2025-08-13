@@ -65,9 +65,9 @@ bool test_leitura_valida() {
 
 int main() {
     stdio_init_all();
-    sleep_ms(7000); // Aguarda terminal USB
+    sleep_ms(8000); // Aguarda para exibir no monitor serial USB, 8 segundos
 
-    printf("\n======== INÍCIO DOS TESTES MS5637 ========\n\n");
+    printf("\n======== INÍCIO DOS TESTES MS5637 =======\n\n");
 
     ms5637_init();
 

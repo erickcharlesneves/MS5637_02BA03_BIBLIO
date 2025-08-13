@@ -4,7 +4,7 @@
 #include "src/ms5637_02ba03/ms5637.h"
 
 // Função para calcular a variação de altura baseada na pressão atmosférica capturada inicialmente ao ligar a placa
-// Fórmula: h = 44330 * (1 - (P / P0)^(1/5.255))
+// Fórmula barométrica: h = 44330 * (1 - (P / P0)^(1/5.255))
 // onde P0 é a pressão ao nível do mar (pode ser calibrada para o  local)
 // P é a pressão medida e h é a variação de altura em metros       
 
@@ -44,3 +44,5 @@ int main() {
         sleep_ms(500);
     }
 }
+
+

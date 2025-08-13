@@ -41,6 +41,10 @@ add_executable(MS5637_02BA03_BIBLIO
     # src/main_exemplos/Ex1_leitura.c
     # src/main_exemplos/Ex2_barometro.c
     # src/main_exemplos/Ex3_varBarometrica.c
+    # src/main_exemplos/Ex3.1_varBaroMediaMov.c
+    # src/main_exemplos/Ex3.2_varBaroKalman.c
+    # src/main_exemplos/Ex3.3_varHypsometrica.c
+    # src/main_exemplos/Ex3.4_varHypsoKalman.c
     # src/main_exemplos/Ex4_ajustepressao.c
 
     src/rotina_test/test_ms5637.c

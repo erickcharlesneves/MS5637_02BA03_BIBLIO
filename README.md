@@ -4,7 +4,7 @@
 ## 📖 Introdução
 Este é o repositório de desenvolvimento da biblioteca/driver em C para configurar e acessar de forma fácil e modularizada o sensor de pressão barométrica e temperatura [**MS5637 - 02BA03**](https://github.com/anderson-pereira/PCEIoT-Board/blob/main/Datasheets/MS563702BA03.pdf)  via comunicação **I²C** com a plataforma de desenvolvimento [**PCEIoT-Board V1.1.0**](https://github.com/anderson-pereira/PCEIoT-Board/tree/main) baseada no microcontrolador RP2040 - [**Raspberry Pi Pico W**](https://github.com/anderson-pereira/PCEIoT-Board/blob/main/Datasheets/SC0918-RPI%20pico%20W.pdf)  com SDK do Pico.
 
-O Sensor MS5637 - 02BA03 da TE Connectivity é barômetro digital de alta resolução, com ADC ΔΣ de 24 bits, de ultra baixo consumo e coeficientes de calibração gravados de fábrica, muito sensível, capaz de detectar uma mudança de  altitude ao nível do mar de 13 cm de ar! 
+O Sensor MS5637 - 02BA03 da TE Connectivity é barômetro digital de alta resolução, com ADC ΔΣ de 24 bits, de ultra baixo consumo e coeficientes de calibração gravados de fábrica, muito sensível, capaz de detectar uma mudança de  altitude ao nível do mar de 13 cm de ar. 
 
 ---
 
@@ -82,8 +82,6 @@ O sensor MS5637 suporta diferentes resoluções OSR:
 
 ### ✅Pré-requisitos
 
-[](https://github.com/erickcharlesneves/ProjetoIntegrado_PCEIoT_Board?tab=readme-ov-file#pr%C3%A9-requisitos)
-
 -   **Pico SDK 2.2.0**  ou superior
 -   **CMake 3.13**  ou superior
 -   **GCC ARM**  toolchain (versão 14_2_Rel1 recomendada)
@@ -94,10 +92,10 @@ O sensor MS5637 suporta diferentes resoluções OSR:
 
 1.  **Clone o repositório com Git**:
 
-git clone https://github.com/erickcharlesneves/ProjetoIntegrado_PCEIoT_Board.git
+git clone https://github.com/erickcharlesneves/MS5637_02BA03_BIBLIO.git
 (Alternativamente - baixe a pasta que contém apenas o sensor e adicione a pasta do mesmo, ao seu projeto)
 
-cd ProjetoIntegrado_PCEIOT_Board
+cd MS5637_02BA03_BIBLIO
 
 2.  **Configure o ambiente Pico SDK**:
 
@@ -121,7 +119,7 @@ ninja -C build
 	3. Rode o projeto(USB)
 	
 	Caso não consiga  rodar há outra forma, porém não tão recomendada :
-    -   Copie o arquivo  `ProjetoIntegrado_PCEIoT_Board.uf2`  para o dispositivo
+    -   Copie o arquivo  `MS5637_02BA03_BIBLIO.uf2`  para o dispositivo
    
 ## :shipit: Requisitos
 **Necessários:** 
@@ -343,7 +341,7 @@ Esta biblioteca representa uma implementação robusta e otimizada para o sensor
 ## 📚 Referência
 
 -   **Datasheet MS5637-02BA03 – TE Connectivity**  
-    https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5637-02BA03
+    https://www.alldatasheet.com/datasheet-pdf/pdf/880804/TEC/MS563702BA03-50.html
 
 
 ## Contribuições:

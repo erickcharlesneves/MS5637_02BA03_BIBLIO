@@ -1,3 +1,8 @@
+/* 
+Main.c para execução inicial. 
+OBS: Mesmo código do Ex3_varBarometrica 
+*/
+
 #include <stdio.h>
 #include <math.h>
 #include "pico/stdlib.h"

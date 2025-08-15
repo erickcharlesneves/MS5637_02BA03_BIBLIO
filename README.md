@@ -89,11 +89,13 @@ O sensor MS5637 suporta diferentes resoluções OSR:
 
 ### Passos de Instalação
 
+(Alternativamente - baixe a pasta que contém apenas o sensor e adicione a pasta do mesmo, ao seu projeto.
+
+OBS: Inclua ao cabeçalho da sua main: #include "src/ms5637_02ba03/ms5637.h")
 
 1.  **Clone o repositório com Git**:
 
 git clone https://github.com/erickcharlesneves/MS5637_02BA03_BIBLIO.git
-(Alternativamente - baixe a pasta que contém apenas o sensor e adicione a pasta do mesmo, ao seu projeto)
 
 cd MS5637_02BA03_BIBLIO
 

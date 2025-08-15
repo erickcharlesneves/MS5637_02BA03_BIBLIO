@@ -37,7 +37,7 @@ pico_sdk_init()
 
 add_executable(MS5637_02BA03_BIBLIO
     src/ms5637_02ba03/ms5637.c
-    # src/main.c
+    src/main.c
     # src/main_exemplos/Ex1_leitura.c
     # src/main_exemplos/Ex2_barometro.c
     # src/main_exemplos/Ex3_varBarometrica.c
@@ -47,7 +47,7 @@ add_executable(MS5637_02BA03_BIBLIO
     # src/main_exemplos/Ex3.4_varHypsoKalman.c
     # src/main_exemplos/Ex4_ajustepressao.c
 
-    src/rotina_test/test_ms5637.c
+    # src/rotina_test/test_ms5637.c
 )
 
 pico_set_program_name(MS5637_02BA03_BIBLIO "MS5637_02BA03_BIBLIO")
